@@ -2,6 +2,6 @@
 
 @section('title', 'FmFc')
 
-@section('body')
-    <p>PUTASO</p>
+@section('content')
+    <p>gatooo</p>
 @endsection
