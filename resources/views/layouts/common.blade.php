@@ -8,11 +8,14 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="" />
+                        <img alt="Fmfc" src="" />
                     </a>
+
+                    @stack('menu')
                 </div>
-                <div class="collapse navbar-collapse navbar-left">
-                    <button type="button" class="btn btn-default navbar-btn">Log in</button>
+
+                <div class="navbar-btn navbar-right">
+                    <button class="btn btn-success">Log In !</button>
                 </div>
             </div>
         </nav>

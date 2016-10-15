@@ -1,5 +1,5 @@
 @extends('layouts.common')
 
 @section('content')
-    <p>Welcome!</p>
+    <p>Reports</p>
 @endsection

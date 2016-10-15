@@ -1,4 +1,4 @@
-<title>@yield('title')</title>
+<title>FmFc</title>
 
 <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
 
