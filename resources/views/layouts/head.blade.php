@@ -1,5 +1,5 @@
 <title>FmFc</title>
 
-<link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
 @stack('css')

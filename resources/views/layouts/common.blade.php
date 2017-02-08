@@ -28,8 +28,7 @@
 
         @include('layouts.body')
 
-        <script type="application/javascript" src="{{ elixir('js/jquery.min.js') }}"></script>
-        <script type="application/javascript" src="{{ elixir('js/bootstrap.min.js') }}"></script>
+        <script type="application/javascript" src="{{ mix('js/all.js') }}"></script>
 
         @stack('scripts')
     </body>
