@@ -12,17 +12,17 @@ const { mix } = require('laravel-mix');
  */
 
 mix
-    //.js('resources/assets/js/jquery.min.js', 'public/js')
-    //.js('resources/assets/js/bootstrap.min.js', 'public/js')
+    .sass('node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss', 'public/css/bootstrap.css')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .combine(
         [
-            'resources/assets/js/jquery.min.js',
-            'resources/assets/js/bootstrap.min.js'
+            'node_modules/jquery/dist/jquery.js',
+            'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js'
         ],
         'public/js/all.js'
     )
-    .js('public/js/all.js', 'public/js')
+    .version()
+    .sourceMaps()
 ;
 
 // Full API
