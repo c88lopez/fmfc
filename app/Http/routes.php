@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/weather', function () {
+    return view('weather');
+});
+
 Route::get('/reports', function () {
     return view('reports');
 });

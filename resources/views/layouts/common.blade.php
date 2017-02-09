@@ -7,11 +7,15 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img alt="Fmfc" src="" />
                     </a>
+                </div>
 
-                    @stack('menu')
+                <div>
+                    <ul class="nav navbar-nav">
+                        @include('layouts.menu.list')
+                    </ul>
                 </div>
 
                 <div class="navbar-btn navbar-right">
@@ -21,8 +25,7 @@
         </nav>
 
         <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home 2</a></li>
+            <li><a href="/">Home</a></li>
             @stack('breadcrumb')
         </ol>
 
