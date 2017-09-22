@@ -1,1 +1,8 @@
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap";
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+.no-right-padding {
+  padding-right: 0 !important;
+}
