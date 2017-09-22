@@ -22,3 +22,7 @@ Route::get('/weather', function () {
 Route::get('/reports', function () {
     return view('reports');
 });
+
+Route::get('/pppIndustries', function () {
+    return view('pppIndustries');
+});

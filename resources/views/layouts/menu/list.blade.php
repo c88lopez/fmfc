@@ -8,6 +8,10 @@ $sectionList = [
         'name' => 'Reports',
         'link' => 'reports',
     ],
+    'pppIndustries' => [
+        'name' => 'PPP Industries',
+        'link' => 'pppIndustries',
+    ],
 ];
 
 ?>
