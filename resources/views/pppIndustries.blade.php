@@ -118,7 +118,7 @@
 
             <div class="panel-footer">
                 <nav aria-label="...">
-                    <ul class="pager">
+                    <ul class="pager no-top-margin no-bottom-margin">
                         <li class="previous disabled"><a href="#"><span
                                         aria-hidden="true">&larr;</span> Older</a></li>
 
