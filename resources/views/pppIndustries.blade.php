@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @push('breadcrumb')
-<li><a href="pppIndustries">PPP Industries</a></li>
+    <a class="breadcrumb-item active" href="pppIndustries">PPP Industries</a>
 @endpush
 
 @section('content')

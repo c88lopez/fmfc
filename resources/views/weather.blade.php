@@ -5,7 +5,7 @@
 @endsection
 
 @push('breadcrumb')
-    <li><a href="weather">Weather</a></li>
+    <a class="breadcrumb-item" href="weather">Weather</a>
 @endpush
 
 @push('scripts')

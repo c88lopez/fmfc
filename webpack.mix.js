@@ -1,4 +1,4 @@
-const { mix } = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,7 +12,7 @@ const { mix } = require('laravel-mix');
  */
 
 mix
-    .sass('node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss', 'public/css/bootstrap.css')
+    .sass('node_modules/bootstrap/scss/bootstrap.scss', 'public/css/bootstrap.css')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .combine(
         [

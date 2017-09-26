@@ -3,31 +3,27 @@
     <head>
         @include('layouts.head')
     </head>
-    <body style="padding-top: 70px;">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/">
-                        <img alt="Fmfc" src="" />
-                    </a>
-                </div>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">
+                <img alt="Fmfc" src="" />
+            </a>
 
-                <div>
-                    <ul class="nav navbar-nav">
-                        @include('layouts.menu.list')
-                    </ul>
-                </div>
-
-                <div class="navbar-btn navbar-right">
-                    <button class="btn btn-success">Log In !</button>
-                </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    @include('layouts.menu.list')
+                </ul>
             </div>
+
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In !</button>
+            </form>
         </nav>
 
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="/">Home</a>
             @stack('breadcrumb')
-        </ol>
+        </nav>
 
         @include('layouts.body')
 
