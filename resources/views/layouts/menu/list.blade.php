@@ -1,16 +1,8 @@
 <?php
 $sectionList = [
-    'weather' => [
-        'name' => 'Weather',
-        'link' => 'weather',
-    ],
-    'reports' => [
-        'name' => 'Reports',
-        'link' => 'reports',
-    ],
-    'pppIndustries' => [
-        'name' => 'PPP Industries',
-        'link' => 'pppIndustries',
+    'consortia' => [
+        'name' => 'Consorcios',
+        'link' => 'consortia',
     ],
 ];
 
